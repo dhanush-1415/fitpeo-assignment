@@ -320,13 +320,13 @@ const Home = () => {
                                             <Typography sx={{fontWeight:'bold' , fontSize:'1.5rem'}}>Dashboard</Typography>
                                         </Grid>
                                     </Grid>
-                                    <ListItemButton sx={{background:'#2d2d69' , borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton sx={{background:'#2d2d69' , borderRadius:'5px' , margin:'10px 0px' , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <DashboardIcon sx={{color:'white'}}/>
                                         </ListItemIcon>
                                         <ListItemText primary="Dashboard" />
                                     </ListItemButton>
-                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px' , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <InventoryIcon sx={{color:'white'}}/>
                                         </ListItemIcon>
@@ -343,7 +343,7 @@ const Home = () => {
                                         </ListItemButton>
                                         </List>
                                     </Collapse>
-                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'  , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <Person3Icon sx={{color:'white'}}/>
                                         </ListItemIcon>
@@ -360,7 +360,7 @@ const Home = () => {
                                         </ListItemButton>
                                         </List>
                                     </Collapse>
-                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px' , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <AddCardIcon sx={{color:'white'}}/>
                                         </ListItemIcon>
@@ -377,7 +377,7 @@ const Home = () => {
                                         </ListItemButton>
                                         </List>
                                     </Collapse>
-                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px' , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <SettingsIcon sx={{color:'white'}}/>
                                         </ListItemIcon>
@@ -394,7 +394,7 @@ const Home = () => {
                                         </ListItemButton>
                                         </List>
                                     </Collapse>
-                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px'}}>
+                                    <ListItemButton onClick={handleClick} sx={{ borderRadius:'5px' , margin:'10px' , maxWidth:'250px'}}>
                                         <ListItemIcon>
                                         <LiveHelpIcon sx={{color:'white'}}/>
                                         </ListItemIcon>
