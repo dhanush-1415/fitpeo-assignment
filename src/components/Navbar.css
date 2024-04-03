@@ -1,0 +1,45 @@
+.navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; /* Initially visible on desktop */
+    background-color: #333;
+    transition: left 0.3s ease;
+  }
+  
+  /* Hide Navbar on mobile */
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      left: -250px;
+    }
+  }
+  
+  .navbar.open {
+    left: 0;
+  }
+  
+  .toggle-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar-menu li:hover {
+    background-color: #555;
+  }
+  
